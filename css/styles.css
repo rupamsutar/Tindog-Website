@@ -23,7 +23,7 @@ h2{
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .rotate{
@@ -60,12 +60,21 @@ h2{
 /* Title Image */
 
 .title-image{
-  width: 50%;
+  width: 20%;
   margin-left: 100px;
-  transform: rotate(22deg);
+  transform: rotate(28deg);
+  position:absolute;
+  right:30%;
 }
 
 /* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+
 .feature-box{
   padding: 7% 15%;
 }
