@@ -1,0 +1,43 @@
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: black;
+}
+li {
+
+  float:left;
+}
+li a {
+  display:block;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+body {
+  height: 1000px;
+  background-image: linear-gradient(to bottom left, black, grey);
+}
+.sub-class2 {
+  padding:10%;
+  text-align: center;
+  margin:40% 10% 50px 10%;
+}
+p {
+  padding: 10%;
+}
+.main-content {
+  position: relative;
+  left:600px;
+  top:250px;
+  text-align: center;
+  background-color: white;
+  height:500px;
+  width:350px;
+}
