@@ -61,6 +61,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 100px;
 }
 
+@media (max-width: 1050px) {
+
+  .left-aligned-heading {
+    text-align: center;
+  }
+
+  .title-image {
+    margin: auto;
+    position: static;
+    width: 45%;
+  }
+}
+
 /* Features */
 
 
@@ -160,16 +173,3 @@ h3 {
 
 #footer {
   padding: 5% 15%;
-
-@media (max-width: 1050px) {
-
-  .left-aligned-heading {
-    text-align: center;
-  }
-
-  .title-image {
-    margin: auto;
-    position: static;
-    width: 45%;
-  }
-}
